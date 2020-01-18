@@ -1,0 +1,513 @@
+---------------------------------------------------------------
+[ 2019-12-20T13:35:19+08:00 ] 111.114.0.2 GET love.sustxyly.top/
+[运行时间：0.034472s] [吞吐率：29.01req/s] [内存消耗：415.27kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/love.sustxyly.top/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'starttime' => '1576820229222',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; V1824A Build/PKQ1.181216.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36 VivoBrowser/7.1.0.1',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'love.sustxyly.top',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/love.sustxyly.top/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/love.sustxyly.top/public/../application/index/view/index/index.html [ array (
+  0 => 'data',
+  1 => 'indexContent',
+  2 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002589s ] mysql:host=39.106.190.222;dbname=love_sustxyly_t;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `love_options` [ RunTime:0.002216s ]
+[ sql ] [ SQL ] SELECT * FROM `love_options` WHERE  `name` = 'icp' LIMIT 1 [ RunTime:0.001738s ]
+[ sql ] [ SQL ] SELECT * FROM `love_options` WHERE  `name` = 'cnzz' LIMIT 1 [ RunTime:0.001936s ]
+[ sql ] [ SQL ] SELECT * FROM `love_options` WHERE  `name` = 'name' LIMIT 1 [ RunTime:0.001744s ]
+[ sql ] [ SQL ] SELECT * FROM `love_options` WHERE  `name` = 'title' LIMIT 1 [ RunTime:0.001722s ]
+[ sql ] [ SQL ] SELECT * FROM `love_options` WHERE  `name` = 'keywords' LIMIT 1 [ RunTime:0.001660s ]
+[ sql ] [ SQL ] SELECT * FROM `love_options` WHERE  `name` = 'description' LIMIT 1 [ RunTime:0.001629s ]
+[ sql ] [ SQL ] SELECT * FROM `love_options` WHERE  `name` = 'title' LIMIT 1 [ RunTime:0.001633s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `love_website` [ RunTime:0.002084s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `love_website` LIMIT 1 [ RunTime:0.001629s ]
+[ sql ] [ SQL ] SELECT * FROM `love_website` LIMIT 0,9 [ RunTime:0.001671s ]
+---------------------------------------------------------------
+[ 2019-12-20T13:35:20+08:00 ] 111.114.0.2 POST love.sustxyly.top/index/index/getnotice.html
+[运行时间：0.009706s] [吞吐率：103.03req/s] [内存消耗：389.65kb] [文件加载：47]
+[ info ] [ LANG ] /www/wwwroot/love.sustxyly.top/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'getnotice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://love.sustxyly.top/',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; V1824A Build/PKQ1.181216.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36 VivoBrowser/7.1.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://love.sustxyly.top',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '8',
+  'connection' => 'keep-alive',
+  'host' => 'love.sustxyly.top',
+)
+[ info ] [ PARAM ] array (
+  'func' => 'get',
+)
+[ info ] [ RUN ] app\index\controller\Index->getNotice[ /www/wwwroot/love.sustxyly.top/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002075s ] mysql:host=39.106.190.222;dbname=love_sustxyly_t;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `love_notice` [ RunTime:0.001804s ]
+[ sql ] [ SQL ] SELECT * FROM `love_notice` ORDER BY `time` DESC LIMIT 1 [ RunTime:0.001425s ]
+---------------------------------------------------------------
+[ 2019-12-20T13:35:30+08:00 ] 111.114.0.2 GET love.sustxyly.top/index/school/indexpage/zid/46f312f8-599f-11e9-90ff-1a23648d9544
+[运行时间：0.115243s] [吞吐率：8.68req/s] [内存消耗：426.92kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/love.sustxyly.top/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'school',
+    2 => 'indexpage',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://love.sustxyly.top/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'starttime' => '1576820240360',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; V1824A Build/PKQ1.181216.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36 VivoBrowser/7.1.0.1',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'love.sustxyly.top',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'zid' => '46f312f8-599f-11e9-90ff-1a23648d9544',
+)
+[ info ] [ RUN ] app\index\controller\School->indexPage[ /www/wwwroot/love.sustxyly.top/application/index/controller/School.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/love.sustxyly.top/public/../application/index/view/school/index.html [ array (
+  0 => 'indexContent',
+  1 => 'page',
+  2 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001966s ] mysql:host=39.106.190.222;dbname=love_sustxyly_t;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `love_website` [ RunTime:0.001776s ]
+[ sql ] [ SQL ] SELECT * FROM `love_website` WHERE  `zid` = '46f312f8-599f-11e9-90ff-1a23648d9544' LIMIT 1 [ RunTime:0.001419s ]
+[ sql ] [ SQL ] UPDATE `love_website`  SET `hot`=`hot`+1  WHERE  `zid` = '46f312f8-599f-11e9-90ff-1a23648d9544' [ RunTime:0.002903s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `love_options` [ RunTime:0.001511s ]
+[ sql ] [ SQL ] SELECT * FROM `love_options` WHERE  `name` = 'icp' LIMIT 1 [ RunTime:0.001205s ]
+[ sql ] [ SQL ] SELECT * FROM `love_options` WHERE  `name` = 'cnzz' LIMIT 1 [ RunTime:0.001201s ]
+[ sql ] [ SQL ] SELECT * FROM `love_options` WHERE  `name` = 'keywords' LIMIT 1 [ RunTime:0.001191s ]
+[ sql ] [ SQL ] SELECT * FROM `love_options` WHERE  `name` = 'description' LIMIT 1 [ RunTime:0.001203s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `love_contents` [ RunTime:0.001535s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `love_contents` WHERE  `zid` = '46f312f8-599f-11e9-90ff-1a23648d9544' LIMIT 1 [ RunTime:0.001296s ]
+[ sql ] [ SQL ] SELECT * FROM `love_contents` WHERE  `zid` = '46f312f8-599f-11e9-90ff-1a23648d9544' ORDER BY `date` DESC LIMIT 0,9 [ RunTime:0.001329s ]
+---------------------------------------------------------------
+[ 2019-12-20T13:35:33+08:00 ] 111.114.0.2 GET love.sustxyly.top/index/school/realpage/zid/46f312f8-599f-11e9-90ff-1a23648d9544
+[运行时间：0.048200s] [吞吐率：20.75req/s] [内存消耗：425.05kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/love.sustxyly.top/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'school',
+    2 => 'realpage',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://love.sustxyly.top/index/school/indexpage/zid/46f312f8-599f-11e9-90ff-1a23648d9544',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'starttime' => '1576820242849',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; V1824A Build/PKQ1.181216.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36 VivoBrowser/7.1.0.1',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'love.sustxyly.top',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'zid' => '46f312f8-599f-11e9-90ff-1a23648d9544',
+)
+[ info ] [ RUN ] app\index\controller\School->realPage[ /www/wwwroot/love.sustxyly.top/application/index/controller/School.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/love.sustxyly.top/public/../application/index/view/school/real.html [ array (
+  0 => 'indexContent',
+  1 => 'page',
+  2 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002099s ] mysql:host=39.106.190.222;dbname=love_sustxyly_t;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `love_website` [ RunTime:0.001831s ]
+[ sql ] [ SQL ] SELECT * FROM `love_website` WHERE  `zid` = '46f312f8-599f-11e9-90ff-1a23648d9544' LIMIT 1 [ RunTime:0.001547s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `love_options` [ RunTime:0.001617s ]
+[ sql ] [ SQL ] SELECT * FROM `love_options` WHERE  `name` = 'icp' LIMIT 1 [ RunTime:0.001371s ]
+[ sql ] [ SQL ] SELECT * FROM `love_options` WHERE  `name` = 'cnzz' LIMIT 1 [ RunTime:0.001325s ]
+[ sql ] [ SQL ] SELECT * FROM `love_options` WHERE  `name` = 'keywords' LIMIT 1 [ RunTime:0.001317s ]
+[ sql ] [ SQL ] SELECT * FROM `love_options` WHERE  `name` = 'description' LIMIT 1 [ RunTime:0.001315s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `love_contents` [ RunTime:0.001694s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `love_contents` WHERE  `zid` = '46f312f8-599f-11e9-90ff-1a23648d9544'  AND `mous` = '0' LIMIT 1 [ RunTime:0.001432s ]
+[ sql ] [ SQL ] SELECT * FROM `love_contents` WHERE  `zid` = '46f312f8-599f-11e9-90ff-1a23648d9544'  AND `mous` = '0' ORDER BY `date` DESC LIMIT 0,9 [ RunTime:0.001455s ]
+---------------------------------------------------------------
+[ 2019-12-20T13:35:35+08:00 ] 111.114.0.2 GET love.sustxyly.top/index/school/mouspage/zid/46f312f8-599f-11e9-90ff-1a23648d9544
+[运行时间：0.029288s] [吞吐率：34.14req/s] [内存消耗：426.55kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/love.sustxyly.top/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'school',
+    2 => 'mouspage',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://love.sustxyly.top/index/school/realpage/zid/46f312f8-599f-11e9-90ff-1a23648d9544',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'starttime' => '1576820245248',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; V1824A Build/PKQ1.181216.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36 VivoBrowser/7.1.0.1',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'love.sustxyly.top',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'zid' => '46f312f8-599f-11e9-90ff-1a23648d9544',
+)
+[ info ] [ RUN ] app\index\controller\School->mousPage[ /www/wwwroot/love.sustxyly.top/application/index/controller/School.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/love.sustxyly.top/public/../application/index/view/school/mous.html [ array (
+  0 => 'indexContent',
+  1 => 'page',
+  2 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002504s ] mysql:host=39.106.190.222;dbname=love_sustxyly_t;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `love_website` [ RunTime:0.001924s ]
+[ sql ] [ SQL ] SELECT * FROM `love_website` WHERE  `zid` = '46f312f8-599f-11e9-90ff-1a23648d9544' LIMIT 1 [ RunTime:0.001415s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `love_options` [ RunTime:0.001691s ]
+[ sql ] [ SQL ] SELECT * FROM `love_options` WHERE  `name` = 'icp' LIMIT 1 [ RunTime:0.001473s ]
+[ sql ] [ SQL ] SELECT * FROM `love_options` WHERE  `name` = 'cnzz' LIMIT 1 [ RunTime:0.001467s ]
+[ sql ] [ SQL ] SELECT * FROM `love_options` WHERE  `name` = 'keywords' LIMIT 1 [ RunTime:0.001452s ]
+[ sql ] [ SQL ] SELECT * FROM `love_options` WHERE  `name` = 'description' LIMIT 1 [ RunTime:0.001327s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `love_contents` [ RunTime:0.001718s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `love_contents` WHERE  `zid` = '46f312f8-599f-11e9-90ff-1a23648d9544'  AND `mous` = '1' LIMIT 1 [ RunTime:0.001491s ]
+[ sql ] [ SQL ] SELECT * FROM `love_contents` WHERE  `zid` = '46f312f8-599f-11e9-90ff-1a23648d9544'  AND `mous` = '1' ORDER BY `date` DESC LIMIT 0,9 [ RunTime:0.001558s ]
+---------------------------------------------------------------
+[ 2019-12-20T13:35:37+08:00 ] 111.114.0.2 GET love.sustxyly.top/index/school/callpage/zid/46f312f8-599f-11e9-90ff-1a23648d9544
+[运行时间：0.130248s] [吞吐率：7.68req/s] [内存消耗：405.68kb] [文件加载：49]
+[ info ] [ LANG ] /www/wwwroot/love.sustxyly.top/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'school',
+    2 => 'callpage',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://love.sustxyly.top/index/school/mouspage/zid/46f312f8-599f-11e9-90ff-1a23648d9544',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'starttime' => '1576820247323',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; V1824A Build/PKQ1.181216.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36 VivoBrowser/7.1.0.1',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'love.sustxyly.top',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'zid' => '46f312f8-599f-11e9-90ff-1a23648d9544',
+)
+[ info ] [ RUN ] app\index\controller\School->callpage[ /www/wwwroot/love.sustxyly.top/application/index/controller/School.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/love.sustxyly.top/public/../application/index/view/school/call.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001942s ] mysql:host=39.106.190.222;dbname=love_sustxyly_t;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `love_website` [ RunTime:0.001651s ]
+[ sql ] [ SQL ] SELECT * FROM `love_website` WHERE  `zid` = '46f312f8-599f-11e9-90ff-1a23648d9544' LIMIT 1 [ RunTime:0.001267s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `love_options` [ RunTime:0.002478s ]
+[ sql ] [ SQL ] SELECT * FROM `love_options` WHERE  `name` = 'icp' LIMIT 1 [ RunTime:0.001247s ]
+[ sql ] [ SQL ] SELECT * FROM `love_options` WHERE  `name` = 'cnzz' LIMIT 1 [ RunTime:0.002028s ]
+[ sql ] [ SQL ] SELECT * FROM `love_options` WHERE  `name` = 'keywords' LIMIT 1 [ RunTime:0.001169s ]
+[ sql ] [ SQL ] SELECT * FROM `love_options` WHERE  `name` = 'description' LIMIT 1 [ RunTime:0.001203s ]
+---------------------------------------------------------------
+[ 2019-12-20T13:35:38+08:00 ] 116.198.10.11 GET love.sustxyly.top/index/school/mouspage/zid/46f312f8-599f-11e9-90ff-1a23648d9544
+[运行时间：0.021886s] [吞吐率：45.69req/s] [内存消耗：423.75kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/love.sustxyly.top/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'school',
+    2 => 'mouspage',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip,deflate',
+  'connection' => 'Keep-Alive',
+  'host' => 'love.sustxyly.top',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 8.0.0; zh-CN; BAC-AL00 Build/HUAWEIBAC-AL00) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.108 UCBrowser/11.9.4.974 UWS/2.13.1.48 Mobile Safari/537.36 AliApp(DingTalk/4.5.11) com.alibaba.android.rimet/10487439 Channel/227200 language/zh-CN',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'zid' => '46f312f8-599f-11e9-90ff-1a23648d9544',
+)
+[ info ] [ RUN ] app\index\controller\School->mousPage[ /www/wwwroot/love.sustxyly.top/application/index/controller/School.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/love.sustxyly.top/public/../application/index/view/school/mous.html [ array (
+  0 => 'indexContent',
+  1 => 'page',
+  2 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001887s ] mysql:host=39.106.190.222;dbname=love_sustxyly_t;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `love_website` [ RunTime:0.001694s ]
+[ sql ] [ SQL ] SELECT * FROM `love_website` WHERE  `zid` = '46f312f8-599f-11e9-90ff-1a23648d9544' LIMIT 1 [ RunTime:0.001333s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `love_options` [ RunTime:0.001490s ]
+[ sql ] [ SQL ] SELECT * FROM `love_options` WHERE  `name` = 'icp' LIMIT 1 [ RunTime:0.001251s ]
+[ sql ] [ SQL ] SELECT * FROM `love_options` WHERE  `name` = 'cnzz' LIMIT 1 [ RunTime:0.001259s ]
+[ sql ] [ SQL ] SELECT * FROM `love_options` WHERE  `name` = 'keywords' LIMIT 1 [ RunTime:0.001310s ]
+[ sql ] [ SQL ] SELECT * FROM `love_options` WHERE  `name` = 'description' LIMIT 1 [ RunTime:0.001399s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `love_contents` [ RunTime:0.001684s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `love_contents` WHERE  `zid` = '46f312f8-599f-11e9-90ff-1a23648d9544'  AND `mous` = '1' LIMIT 1 [ RunTime:0.001233s ]
+[ sql ] [ SQL ] SELECT * FROM `love_contents` WHERE  `zid` = '46f312f8-599f-11e9-90ff-1a23648d9544'  AND `mous` = '1' ORDER BY `date` DESC LIMIT 0,9 [ RunTime:0.001262s ]
+---------------------------------------------------------------
+[ 2019-12-20T13:36:02+08:00 ] 111.114.0.2 GET love.sustxyly.top/index/school/realpage/zid/46f312f8-599f-11e9-90ff-1a23648d9544
+[运行时间：0.021469s] [吞吐率：46.58req/s] [内存消耗：424.23kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/love.sustxyly.top/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'school',
+    2 => 'realpage',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'zid=46f312f8-599f-11e9-90ff-1a23648d9544',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://love.sustxyly.top/index/school/callpage/zid/46f312f8-599f-11e9-90ff-1a23648d9544',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'starttime' => '1576820272128',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; V1824A Build/PKQ1.181216.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36 VivoBrowser/7.1.0.1',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'love.sustxyly.top',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'zid' => '46f312f8-599f-11e9-90ff-1a23648d9544',
+)
+[ info ] [ RUN ] app\index\controller\School->realPage[ /www/wwwroot/love.sustxyly.top/application/index/controller/School.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/love.sustxyly.top/public/../application/index/view/school/real.html [ array (
+  0 => 'indexContent',
+  1 => 'page',
+  2 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001926s ] mysql:host=39.106.190.222;dbname=love_sustxyly_t;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `love_website` [ RunTime:0.001707s ]
+[ sql ] [ SQL ] SELECT * FROM `love_website` WHERE  `zid` = '46f312f8-599f-11e9-90ff-1a23648d9544' LIMIT 1 [ RunTime:0.001259s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `love_options` [ RunTime:0.001489s ]
+[ sql ] [ SQL ] SELECT * FROM `love_options` WHERE  `name` = 'icp' LIMIT 1 [ RunTime:0.001192s ]
+[ sql ] [ SQL ] SELECT * FROM `love_options` WHERE  `name` = 'cnzz' LIMIT 1 [ RunTime:0.001165s ]
+[ sql ] [ SQL ] SELECT * FROM `love_options` WHERE  `name` = 'keywords' LIMIT 1 [ RunTime:0.001327s ]
+[ sql ] [ SQL ] SELECT * FROM `love_options` WHERE  `name` = 'description' LIMIT 1 [ RunTime:0.001239s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `love_contents` [ RunTime:0.001528s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `love_contents` WHERE  `zid` = '46f312f8-599f-11e9-90ff-1a23648d9544'  AND `mous` = '0' LIMIT 1 [ RunTime:0.001296s ]
+[ sql ] [ SQL ] SELECT * FROM `love_contents` WHERE  `zid` = '46f312f8-599f-11e9-90ff-1a23648d9544'  AND `mous` = '0' ORDER BY `date` DESC LIMIT 0,9 [ RunTime:0.001287s ]
+---------------------------------------------------------------
+[ 2019-12-20T13:36:03+08:00 ] 111.114.0.2 GET love.sustxyly.top/index/school/indexpage/zid/46f312f8-599f-11e9-90ff-1a23648d9544
+[运行时间：0.029905s] [吞吐率：33.44req/s] [内存消耗：426.00kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/love.sustxyly.top/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'school',
+    2 => 'indexpage',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'zid=46f312f8-599f-11e9-90ff-1a23648d9544',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://love.sustxyly.top/index/school/realpage/zid/46f312f8-599f-11e9-90ff-1a23648d9544',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'starttime' => '1576820273486',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; V1824A Build/PKQ1.181216.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36 VivoBrowser/7.1.0.1',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'love.sustxyly.top',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'zid' => '46f312f8-599f-11e9-90ff-1a23648d9544',
+)
+[ info ] [ RUN ] app\index\controller\School->indexPage[ /www/wwwroot/love.sustxyly.top/application/index/controller/School.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/love.sustxyly.top/public/../application/index/view/school/index.html [ array (
+  0 => 'indexContent',
+  1 => 'page',
+  2 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002499s ] mysql:host=39.106.190.222;dbname=love_sustxyly_t;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `love_website` [ RunTime:0.002115s ]
+[ sql ] [ SQL ] SELECT * FROM `love_website` WHERE  `zid` = '46f312f8-599f-11e9-90ff-1a23648d9544' LIMIT 1 [ RunTime:0.001633s ]
+[ sql ] [ SQL ] UPDATE `love_website`  SET `hot`=`hot`+1  WHERE  `zid` = '46f312f8-599f-11e9-90ff-1a23648d9544' [ RunTime:0.003840s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `love_options` [ RunTime:0.001884s ]
+[ sql ] [ SQL ] SELECT * FROM `love_options` WHERE  `name` = 'icp' LIMIT 1 [ RunTime:0.001621s ]
+[ sql ] [ SQL ] SELECT * FROM `love_options` WHERE  `name` = 'cnzz' LIMIT 1 [ RunTime:0.001580s ]
+[ sql ] [ SQL ] SELECT * FROM `love_options` WHERE  `name` = 'keywords' LIMIT 1 [ RunTime:0.001573s ]
+[ sql ] [ SQL ] SELECT * FROM `love_options` WHERE  `name` = 'description' LIMIT 1 [ RunTime:0.001519s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `love_contents` [ RunTime:0.001972s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `love_contents` WHERE  `zid` = '46f312f8-599f-11e9-90ff-1a23648d9544' LIMIT 1 [ RunTime:0.001562s ]
+[ sql ] [ SQL ] SELECT * FROM `love_contents` WHERE  `zid` = '46f312f8-599f-11e9-90ff-1a23648d9544' ORDER BY `date` DESC LIMIT 0,9 [ RunTime:0.001585s ]
+---------------------------------------------------------------
+[ 2019-12-20T13:36:57+08:00 ] 111.114.0.2 GET love.sustxyly.top/index/school/realpage/zid/46f312f8-599f-11e9-90ff-1a23648d9544
+[运行时间：0.026008s] [吞吐率：38.45req/s] [内存消耗：424.23kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/love.sustxyly.top/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'school',
+    2 => 'realpage',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'zid=46f312f8-599f-11e9-90ff-1a23648d9544',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://love.sustxyly.top/index/school/indexpage/zid/46f312f8-599f-11e9-90ff-1a23648d9544',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'starttime' => '1576820326639',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; V1824A Build/PKQ1.181216.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36 VivoBrowser/7.1.0.1',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'love.sustxyly.top',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'zid' => '46f312f8-599f-11e9-90ff-1a23648d9544',
+)
+[ info ] [ RUN ] app\index\controller\School->realPage[ /www/wwwroot/love.sustxyly.top/application/index/controller/School.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/love.sustxyly.top/public/../application/index/view/school/real.html [ array (
+  0 => 'indexContent',
+  1 => 'page',
+  2 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002351s ] mysql:host=39.106.190.222;dbname=love_sustxyly_t;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `love_website` [ RunTime:0.002035s ]
+[ sql ] [ SQL ] SELECT * FROM `love_website` WHERE  `zid` = '46f312f8-599f-11e9-90ff-1a23648d9544' LIMIT 1 [ RunTime:0.001681s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `love_options` [ RunTime:0.001745s ]
+[ sql ] [ SQL ] SELECT * FROM `love_options` WHERE  `name` = 'icp' LIMIT 1 [ RunTime:0.001459s ]
+[ sql ] [ SQL ] SELECT * FROM `love_options` WHERE  `name` = 'cnzz' LIMIT 1 [ RunTime:0.001478s ]
+[ sql ] [ SQL ] SELECT * FROM `love_options` WHERE  `name` = 'keywords' LIMIT 1 [ RunTime:0.001447s ]
+[ sql ] [ SQL ] SELECT * FROM `love_options` WHERE  `name` = 'description' LIMIT 1 [ RunTime:0.001730s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `love_contents` [ RunTime:0.003244s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `love_contents` WHERE  `zid` = '46f312f8-599f-11e9-90ff-1a23648d9544'  AND `mous` = '0' LIMIT 1 [ RunTime:0.001557s ]
+[ sql ] [ SQL ] SELECT * FROM `love_contents` WHERE  `zid` = '46f312f8-599f-11e9-90ff-1a23648d9544'  AND `mous` = '0' ORDER BY `date` DESC LIMIT 0,9 [ RunTime:0.001486s ]
+---------------------------------------------------------------
+[ 2019-12-20T13:36:58+08:00 ] 111.114.0.2 GET love.sustxyly.top/index/school/indexpage/zid/46f312f8-599f-11e9-90ff-1a23648d9544
+[运行时间：0.026505s] [吞吐率：37.73req/s] [内存消耗：426.00kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/love.sustxyly.top/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'school',
+    2 => 'indexpage',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'zid=46f312f8-599f-11e9-90ff-1a23648d9544',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://love.sustxyly.top/index/school/realpage/zid/46f312f8-599f-11e9-90ff-1a23648d9544',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'starttime' => '1576820327626',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; V1824A Build/PKQ1.181216.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36 VivoBrowser/7.1.0.1',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'love.sustxyly.top',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'zid' => '46f312f8-599f-11e9-90ff-1a23648d9544',
+)
+[ info ] [ RUN ] app\index\controller\School->indexPage[ /www/wwwroot/love.sustxyly.top/application/index/controller/School.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/love.sustxyly.top/public/../application/index/view/school/index.html [ array (
+  0 => 'indexContent',
+  1 => 'page',
+  2 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002449s ] mysql:host=39.106.190.222;dbname=love_sustxyly_t;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `love_website` [ RunTime:0.001817s ]
+[ sql ] [ SQL ] SELECT * FROM `love_website` WHERE  `zid` = '46f312f8-599f-11e9-90ff-1a23648d9544' LIMIT 1 [ RunTime:0.002020s ]
+[ sql ] [ SQL ] UPDATE `love_website`  SET `hot`=`hot`+1  WHERE  `zid` = '46f312f8-599f-11e9-90ff-1a23648d9544' [ RunTime:0.002858s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `love_options` [ RunTime:0.001625s ]
+[ sql ] [ SQL ] SELECT * FROM `love_options` WHERE  `name` = 'icp' LIMIT 1 [ RunTime:0.001248s ]
+[ sql ] [ SQL ] SELECT * FROM `love_options` WHERE  `name` = 'cnzz' LIMIT 1 [ RunTime:0.001501s ]
+[ sql ] [ SQL ] SELECT * FROM `love_options` WHERE  `name` = 'keywords' LIMIT 1 [ RunTime:0.001298s ]
+[ sql ] [ SQL ] SELECT * FROM `love_options` WHERE  `name` = 'description' LIMIT 1 [ RunTime:0.001240s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `love_contents` [ RunTime:0.001626s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `love_contents` WHERE  `zid` = '46f312f8-599f-11e9-90ff-1a23648d9544' LIMIT 1 [ RunTime:0.001260s ]
+[ sql ] [ SQL ] SELECT * FROM `love_contents` WHERE  `zid` = '46f312f8-599f-11e9-90ff-1a23648d9544' ORDER BY `date` DESC LIMIT 0,9 [ RunTime:0.001403s ]

@@ -1,0 +1,89 @@
+---------------------------------------------------------------
+[ 2019-11-22T08:13:40+08:00 ] 47.103.14.177 GET love.sustxyly.top/
+[运行时间：0.023713s] [吞吐率：42.17req/s] [内存消耗：413.80kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/love.sustxyly.top/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'love.sustxyly.top',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:36.0) Gecko/20100101 Firefox/36.0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/love.sustxyly.top/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/love.sustxyly.top/public/../application/index/view/index/index.html [ array (
+  0 => 'data',
+  1 => 'indexContent',
+  2 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002152s ] mysql:host=39.106.190.222;dbname=love_sustxyly_t;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `love_options` [ RunTime:0.001761s ]
+[ sql ] [ SQL ] SELECT * FROM `love_options` WHERE  `name` = 'icp' LIMIT 1 [ RunTime:0.001418s ]
+[ sql ] [ SQL ] SELECT * FROM `love_options` WHERE  `name` = 'cnzz' LIMIT 1 [ RunTime:0.001334s ]
+[ sql ] [ SQL ] SELECT * FROM `love_options` WHERE  `name` = 'name' LIMIT 1 [ RunTime:0.001374s ]
+[ sql ] [ SQL ] SELECT * FROM `love_options` WHERE  `name` = 'title' LIMIT 1 [ RunTime:0.001347s ]
+[ sql ] [ SQL ] SELECT * FROM `love_options` WHERE  `name` = 'keywords' LIMIT 1 [ RunTime:0.001329s ]
+[ sql ] [ SQL ] SELECT * FROM `love_options` WHERE  `name` = 'description' LIMIT 1 [ RunTime:0.001325s ]
+[ sql ] [ SQL ] SELECT * FROM `love_options` WHERE  `name` = 'title' LIMIT 1 [ RunTime:0.001341s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `love_website` [ RunTime:0.001673s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `love_website` LIMIT 1 [ RunTime:0.001354s ]
+[ sql ] [ SQL ] SELECT * FROM `love_website` LIMIT 0,9 [ RunTime:0.001338s ]
+---------------------------------------------------------------
+[ 2019-11-22T08:13:41+08:00 ] 47.103.14.177 GET love.sustxyly.top/article?id=
+[运行时间：0.026305s] [吞吐率：38.02req/s] [内存消耗：409.05kb] [文件加载：50]
+[ info ] [ LANG ] /www/wwwroot/love.sustxyly.top/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'articlePage',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'love.sustxyly.top',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:36.0) Gecko/20100101 Firefox/36.0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '',
+)
+[ info ] [ RUN ] app\index\controller\Index->articlePage[ /www/wwwroot/love.sustxyly.top/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/love.sustxyly.top/public/../application/index/view/index/comment.html [ array (
+  0 => 'num',
+  1 => 'postdata',
+  2 => 'post_id',
+  3 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002377s ] mysql:host=39.106.190.222;dbname=love_sustxyly_t;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `love_comment` [ RunTime:0.002104s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `love_comment` WHERE  `post_id` = 0 LIMIT 1 [ RunTime:0.001575s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `love_options` [ RunTime:0.001849s ]
+[ sql ] [ SQL ] SELECT * FROM `love_options` WHERE  `name` = 'icp' LIMIT 1 [ RunTime:0.001558s ]
+[ sql ] [ SQL ] SELECT * FROM `love_options` WHERE  `name` = 'cnzz' LIMIT 1 [ RunTime:0.001563s ]
+[ sql ] [ SQL ] SELECT * FROM `love_options` WHERE  `name` = 'keywords' LIMIT 1 [ RunTime:0.001525s ]
+[ sql ] [ SQL ] SELECT * FROM `love_options` WHERE  `name` = 'name' LIMIT 1 [ RunTime:0.001550s ]
+[ sql ] [ SQL ] SELECT * FROM `love_options` WHERE  `name` = 'description' LIMIT 1 [ RunTime:0.001542s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `love_contents` [ RunTime:0.001805s ]
+[ sql ] [ SQL ] SELECT * FROM `love_contents` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.001539s ]
+[ sql ] [ SQL ] SELECT * FROM `love_comment` WHERE  `parent_id` = 0  AND `post_id` = 0 ORDER BY `create_time` DESC [ RunTime:0.001557s ]
