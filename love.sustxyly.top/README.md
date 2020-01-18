@@ -1,7 +1,6 @@
-# LoveWall
-
+# Confession wall
 #### 自我介绍
-LoveWall，顾名思义，其实就是表白墙。
+顾名思义，其实就是表白墙。
 一生那么长，只为遇见你。
 #### 特色功能
 1. 点赞
@@ -48,9 +47,3 @@ LoveWall，顾名思义，其实就是表白墙。
 4. 导入根目录下的 import.sql 文件，并配置application/database.php文件下的连接信息
 5. 首次使用请配置发信邮箱 \extend\PHPMailer\SendEmail.php ,否则校区审核无法通知
 6. 大功告成，开始尽情使用吧！
-
-#### 参与贡献
-1. Csdn 社区、手册 (滑稽.jpg)
-2. 文案：猫腻
-3. 开发：橘子(Cheng)、Ncnet
-4. 测试：猫腻、久念
